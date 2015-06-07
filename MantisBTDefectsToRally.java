@@ -41,7 +41,7 @@ public class MantisBTDefectsToRally {
 	public static void main(String[] args) throws Exception {
 		DOMParser parser = new DOMParser();
 
-		parser.parse(new InputSource("MantisBT_report.html"));
+		parser.parse(new InputSource("MantisBT_Sample_report.html"));
 		org.w3c.dom.Document doc = parser.getDocument();
 
 		DOMReader reader = new DOMReader();
